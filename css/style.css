@@ -141,6 +141,7 @@ header .fa-bars {
 
 .home .container p {
     font-size: 2rem;
+    padding: 4rem;
     color: #ffffff;
     text-shadow: #343434 .2rem .1rem;
     align-items: center;
@@ -313,6 +314,53 @@ header .fa-bars {
     color: cornflowerblue;
 }
 
+.project {
+    background: linear-gradient(180deg, #fff, #f9f9f9);
+}
+
+.project .card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+}
+
+.project .card-container .card {
+    padding: 2rem;
+    margin: 2rem;
+    background: #fff;
+    text-align: center;
+    width: 28rem;
+    box-shadow: 0 .3rem .5rem rgba(0, 0, 0, .3);
+}
+
+.project .card-container .card img {
+    height: 30rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.project .card-container .card h3 {
+    color: var(--blue);
+    font-size: 2rem;
+    padding: .5rem 0;
+}
+
+.project .card-container .card p {
+    font-size: 1.7rem;
+    color: #666;
+}
+
+.project .card-container .card .icons a {
+    font-size: 1.9rem;
+    padding: 1.5rem;
+    color: var(--blue);
+}
+
+.project .card-container .card .icons a:hover {
+    color: var(--violet);   
+}
 
 
 
@@ -320,7 +368,7 @@ header .fa-bars {
 .clock .hero {
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(180deg, #ffffff, #8c8c8c);
+    background: linear-gradient(180deg, #f9f9f9, #8c8c8c);
     color: #fff;
     position: relative;
 }
