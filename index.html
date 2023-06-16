@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schulwebseite</title>
+    <link rel="icon" href="images/favicon.jpg">
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<!-- header section starts -->
+
+<header>
+
+    <a href="#" class="logo"><i class="fas fa-graduation-cap"></i>BVS</a>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#review">Reviews</a></li>
+            <li><a href="#clock">Clock</a></li>
+        </ul>
+    </nav>
+
+<div class="fas fa-bars"></div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts -->
+
+<section class="home" id="home">
+
+    <div class="container">
+        <h1>Das <span class="auto-type"></span></h1>
+        <p>Anschlusslösung nach der obligatorischen Schule, Einstieg in die Berufswelt oder auf dem Weg vom Fachmann zum Profi.</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+
+        var typed = new Typed(".auto-type", {
+
+            strings: ["10. Schuljahr", "bzemme", "BVS Burgdorf"],
+            typeSpeed: 150,
+            backSpeed: 150,
+            loop: true
+
+        })
+
+    </script>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="box1">
+                <i class="fas fa-graduation-cap"></i>
+                <h3>Zukunft</h3>
+                <p>Erhalte Unterstützung dabei, um auf deine Zukunft vorbereitet zu sein, sei es Vorstellungsgespräche üben, Lehrpraktikumswochen oder Crashkurse für den Haushalt.</p>
+            </div>
+
+            <div class="box2">
+                <i class="fas fa-fire"></i>
+                <h3>Erlebnisse</h3>
+                <p>Erlebe viel Neues: Neue Umgebung, neue Leute, Schulreisen, Projekte und vieles mehr.</p>
+            </div>
+        
+            <div class="box3">
+                <i class="fas fa-award"></i>
+                <h3>Erfolge</h3>
+                <p>Erhalte die volle Unterstützung, um Erfolg bei der Lehrstellensuche zu haben. Daher, dass BVS ein schulisches Brückenangebot ist, wird auch verpasster Schulstoff nachgeholt, um sic</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts -->
+<section class="about" id="about">
+
+    <h1 class="heading">About</h1>
+    <h3 class="title">Das Brückenangebot</h3>
+
+    <div class="row">
+
+        <div class="content">
+            <h3>Worum geht es im 10. Schuljahr?</h3>
+            <p>Das BVS in Burgdorf bietet ein Brückenangebot für Jugendliche und junge Erwachsene. Bei den <a href="https://www.bzemme.ch/bvs" id="SB">schulischen Brückenangeboten</a> gehört das <span>BPA</span>, das <span>BPI</span> und das <span>BVS Plus</span>. Ausserdem bietet die bzemme <a href="https://www.bzemme.ch/brueckenangebote/vorlehre" id="DB">duale Brückenangebote</a>, wie die <span>Vorlehre Standard</span> und die <span>Vorlehre Integration</span></p>
+            <a href="https://www.bzemme.ch/brueckenangebote"><button>Erfahre mehr</button></a>
+            <br>
+            <br>
+            <br>
+            <a class="flyer" href="https://www.bzemme.ch/index.php?eID=tx_securedownloads&p=358&u=0&g=0&t=1686304518&hash=d304efcbb1d1dcf640d4b7375a1dcf96fed5a2f8&file=/fileadmin/user_upload/Berufe/BVS_und_Vorlehre/Flyer_Brueckenangebote_bzemme_.pdf">Flyer Brückenangebote</a>
+
+        </div>
+
+        <div class="image">
+            <img src="images/about.png" alt="">
+        </div>
+
+    </div>
+</section>
+<!-- about section ends -->
+
+<!-- projects section starts -->
+<section class="project" id="project">
+
+    <h1 class="heading">Unsere Projekte</h1>
+    <h3 class="title">Verschiedenste Schulprojekte der anderen Lernenden</h3>
+
+    <div class="card-container">
+        <div class="card">
+            <img src="images/projekt1.png" alt="">
+            <h3>Projekt 1</h3>
+            <p>Ein Kurzfilm, wo 2D animiert wurde. Es inszeniert eine Kampfszene, zwischen der chinesischen Gottheit: Wukong und dem Anime-Schwertkämpfer: Lorenor Zoro
+            </p>
+        </div>
+        <div class="card">
+            <img src="" alt="">
+            <h3>Projekt 2</h3>
+            <p>Ein Projekt</p>
+        </div>
+            <div class="card">
+                <img src="" alt="">
+                <h3>Projekt 3</h3>
+                <p>Ein Projekt</p>
+            </div>
+    </div>
+
+</section>
+<!-- projects section ends -->
+
+<!-- reviews section starts -->
+<section class="reviews" id="reviews">
+
+
+</section>
+<!-- reviews section ends -->
+
+<!-- clock section starts -->
+<section class="clock" id="clock">
+    <div class="hero">
+        <div class="container">
+            <h1>Uhrzeit</h1>
+            <div class="clockF">
+                <span id="hrs">00</span>
+                <span>:</span>
+                <span id="min">00</span>
+                <span>:</span>
+                <span id="sec">00</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+        let hrs = document.getElementById("hrs");
+        let min = document.getElementById("min");
+        let sec = document.getElementById("sec");
+
+        setInterval(()=>{
+
+            let currentTime = new Date();
+
+            hrs.innerHTML = currentTime.getHours();
+            min.innerHTML = currentTime.getMinutes();
+            sec.innerHTML = currentTime.getSeconds();
+
+        },1000);
+
+    </script>
+</section>
+<!-- clock section ends -->
+
+
+    
+    <!-- jquery cdn link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <!-- custom js file link -->
+    <script src="js/main.js"></script>
+
+</body>
+</html>
